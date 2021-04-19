@@ -22,4 +22,7 @@ while True:
     break
   elif userAnswer == "done":
     print("Работает")
+  elif userAnswer =="show":
+    for date in todo.keys():
+     print(f"[{date}] - \t {todo [date] }")
 
