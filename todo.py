@@ -29,6 +29,8 @@ while True:
 
   if userAnswer == "add":
     userDate = input("Введите дату:\n")
+    if checkDate (userDate) == False:
+      continue 
     userTask = input("Что нужно сделать?")
 
   
